@@ -5,14 +5,15 @@
 }
 
 body{
-    /* background-image: url(./img/background_image.jpg); */
+    background-image: url(./img/background_image.jpg);
+    color: #FFFFFF;
 }
 #container{
     max-width: 1240px;
     height: 1036px;
     background-color:rgba(0, 0, 0, 0.3);  
     margin: auto;
-    margin: 30px 100px;    
+    /* margin: 30px 100px;     */
 }
 #title{
     font-size: 50px;
@@ -30,4 +31,47 @@ body{
 }
 .header{
     text-align: center;
+}
+#feedback{
+    resize: none;
+}
+#survey-form-cantainer{
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+    
+}
+.input-box{
+    margin-top: 10px;
+}
+
+#form-button{
+    width: 160px;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: #ff0000;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-submit{
+    margin: auto;
+    width: 160px;
+    margin-top: 15px;
+}
+#form-button:hover{
+    background-color: #FFFFFF;
+    color: #ff0000;
 }
