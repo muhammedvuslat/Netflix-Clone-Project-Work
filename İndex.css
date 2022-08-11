@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(./img/background_image.jpg); */
+}
+#container{
+    max-width: 1240px;
+    height: 1036px;
+    background-color:rgba(0, 0, 0, 0.3);  
+    margin: auto;
+    margin: 30px 100px;    
+}
+#title{
+    font-size: 50px;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+}
+#flıx{
+    color:#ff0000
+
+}
+
