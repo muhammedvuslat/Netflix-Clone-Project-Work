@@ -6,4 +6,5 @@ Click the icon to view the page
 Hello;
 <br>
 Welcome to my repo, I am happy to share with you the work I have done in my software developer adventure, which I am still in the development phase. In this study, I experienced the compatibility of html and .css files. My netfilix clone work that I have prepared is with you.
-Information: The page content and files are not for commercial purposes, they are written for learning exercise purposes.
+<br>
+<h4>Information!: The page content and files are not for commercial purposes, they are written for learning exercise purposes.<h4>
