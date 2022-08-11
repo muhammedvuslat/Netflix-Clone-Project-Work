@@ -28,10 +28,46 @@
         </h3>
       </header>
       <section id="survey-form-cantainer">
-        
+        <form action="result.html" method="get">
+          <div class="input-box">
+            <label for="name">Name</label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="input-box">
+            <label for="age">Age</label>
+            <br />
+            <input type="number" name="age" id="age" placeholder="Age" />
+          </div>
+          <div class="input-box">
+            <label for="email">Email</label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="input-box">
+            <label for="content">Content Type</label>
+            <br />
+            <select name="content" id="dropdown">
+              <option value="movie">Movies</option>
+              <option value="series" selected>Series</option>
+              <option value="tv_shows">Tv Shows</option>
+            </select>
+          </div>
+          <div class="input-box">
+            
+          </div>
+        </form>
       </section>
-    
-    
     </div>
   </body>
 </html>
